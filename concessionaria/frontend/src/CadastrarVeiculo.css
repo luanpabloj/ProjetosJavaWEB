@@ -1,0 +1,36 @@
+.car-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: auto;
+    color: rgb(122, 120, 120);
+  }
+  
+  .car-form label {
+    margin-bottom: 10px;
+  }
+  
+  .car-form input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #ccc;
+    color: rgb(122, 120, 120);
+  }
+  
+  .car-form button {
+    padding: 10px;
+    background-color: #0070d2;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .car-form button:hover {
+    background-color: #005bb5;
+  }
+  
